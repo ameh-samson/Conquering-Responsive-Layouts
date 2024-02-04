@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #23424a;
+  color: white;
+  padding: 50px 0;
+}
+
+.intro-content,
+.more-content {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.intro-content h1,
+.intro-content p {
+  max-width: 50%;
+}
