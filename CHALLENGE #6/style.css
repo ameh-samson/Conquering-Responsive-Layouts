@@ -76,6 +76,10 @@ header {
   gap: 2em;
 }
 
+.nav__item--push-right {
+  margin-left: auto;
+}
+
 .nav__link {
   color: #fff;
   text-decoration: none;
