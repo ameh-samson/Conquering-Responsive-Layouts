@@ -33,16 +33,20 @@ body {
   text-align: center;
 }
 
+section {
+  padding-block: 4em;
+}
+
 .container {
   max-width: 1128px;
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 1.5em;
 }
 
 h1,
@@ -55,7 +59,7 @@ h2 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2.5rem;
 }
 
 p {
@@ -73,32 +77,40 @@ img {
 
 .hero {
   background: #f3eed9;
-  padding-block: 180px;
 }
 
 .hero-content P {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 300;
 }
 
 .hero-content h1 {
-  font-size: 60px;
+  font-size: 3rem;
   color: var(--brown-color);
-}
-
-.feature {
-  padding-block: 100px;
 }
 
 .details {
   background: var(--dark-grey);
   color: var(--pink-color);
-  padding-block: 180px;
 }
 
 .details2 {
   background: var(--brown-color);
-  padding-block: 180px;
+
   color: var(--pink-color);
+}
+
+@media (max-width: 600px) {
+  .row {
+    display: block;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .details2 h2 {
+    margin-top: 1em;
+  }
 }
