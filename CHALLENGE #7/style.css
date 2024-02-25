@@ -1,4 +1,5 @@
 :root {
+  --white-color: #fff;
   --pink-color: #f3eed9;
   --brown-color: #824936;
   --dark-grey: #222c2a;
@@ -92,16 +93,16 @@ img {
 
 .details {
   background: var(--dark-grey);
-  color: var(--pink-color);
+  color: var(--white-color);
 }
 
 .details2 {
   background: var(--brown-color);
 
-  color: var(--pink-color);
+  color: var(--white-color);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .row {
     display: block;
   }
